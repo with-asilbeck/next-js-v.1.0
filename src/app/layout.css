@@ -1,0 +1,28 @@
+.nav-container,
+.footer-container{
+    width: 99%;
+    height: 50px;
+    background-color: black;
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-container > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-container > a,
+.footer-container > a{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: yellow;
+}

@@ -1,0 +1,23 @@
+.home-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+.blog-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+.blog-container > button{
+    display: flex;
+    width: auto;
+    height: 20px;
+}
